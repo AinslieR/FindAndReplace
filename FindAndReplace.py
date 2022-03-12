@@ -32,9 +32,6 @@ def button1Click():
         dst = src.replace(lookForValue.get(), replaceWithValue.get())
         os.rename(src,dst) 
 
-    # changeLabel = Label(root, text="List of name changes:\n " + src + " : " + dst) #After the user selected the location, this label displays it
-    # changeLabel.grid(column=0, row=5) #This makes the label display on the main window
-
 myButtonInDir = Button(root, text="Select location", command=inputButton) #Ths creates an "input" button
 myButtonInDir.grid(row=1, column=0) #This displays the input button on the main window
 
